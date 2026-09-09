@@ -1,7 +1,7 @@
 name: gui-gitnexus
 kind: overlay
 icon: "◈"
-description: Codex-only GitNexus MCP overlay for the KFB Wireless Clip Tester GUI repository
+description: Codex-only GitNexus and local code-review-graph MCP overlay for the KFB Wireless Clip Tester GUI repository
 agents:
   - codex
 inherits: core
@@ -13,3 +13,42 @@ codex_config:
       - gitnexus@1.6.10
       - mcp
     startup_timeout_sec: 60
+  mcp_servers.code-review-graph:
+    command: uvx
+    args:
+      - --from
+      - code-review-graph==2.3.8
+      - code-review-graph
+      - serve
+      - --tools
+      - build_or_update_graph_tool,list_graph_stats_tool,get_minimal_context_tool,get_review_context_tool,get_impact_radius_tool,query_graph_tool
+    startup_timeout_sec: 120
+    tool_timeout_sec: 180
+persona: |
+  ## Local code review — code-review-graph
+
+  For an explicitly requested local code review (including /code-review and
+  /code-review-deep), use code-review-graph first to scope the review, then
+  follow the requested review workflow. Never launch a review automatically.
+  Keep GitNexus/CodeGraph for ordinary repository exploration and as fallbacks.
+
+  1. Establish the actual review worktree with `git rev-parse --show-toplevel`
+     and the requested diff/base. Do not assume main or HEAD~1; for uncommitted
+     work use HEAD, and for a branch review resolve its requested merge base.
+  2. Pass that absolute `repo_root` on every graph call. Check
+     `list_graph_stats_tool`, then `build_or_update_graph_tool` incrementally
+     with `postprocess="minimal"` and `recurse_submodules=false`. Keep its
+     freshness base automatic; the review diff base is a separate parameter.
+  3. Use `get_review_context_tool` with the explicit review base/changed files,
+     `detail_level="minimal"`, `include_source=false`, and `max_files=10`.
+     Read the actual diff plus affected source/tests; query specific callers
+     with `query_graph_tool` or `get_impact_radius_tool` only as needed.
+  4. Treat missing edges and truncated results as coverage gaps, not proof of
+     safety. Include relevant config, protocol, dynamic dispatch and fixtures
+     even when the graph omits them. Fall back to GitNexus/CodeGraph and narrow
+     source reads when unavailable or stale; state the verification gap.
+
+  The graph is local context tooling, not an offline LLM reviewer. Do not run
+  upstream `install`, add automatic hooks/watchers, enable cloud embeddings or
+  transmit source to an extra provider. No token-saving claim without our own
+  same-task A/B measurement. Existing review opt-in and release gates remain.
