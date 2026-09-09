@@ -2,7 +2,7 @@
 title: "gordonkjlee/facthouse — Claude Code skill discovered by cue"
 description: "A local memory engine any AI tool can use."
 layout: page
-updated: 2026-09-07
+updated: 2026-09-09
 tags: [claude-code, skill, backend]
 ---
 
@@ -16,7 +16,7 @@ tags: [claude-code, skill, backend]
 
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 8 based on:
 - ⭐ 2 stars
-- 🗓️ Last pushed: 2026-09-07
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: ai-memory, knowledge-engine, mcp, mcp-server, memory-system, model-context-protocol, sqlite, typescript
 
 ## Best fit cue profiles

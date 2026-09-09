@@ -2,22 +2,22 @@
 title: "ilyautov/humanizer-ru — Claude Code skill discovered by cue"
 description: "humanizer-ru: очеловечить русский AI-текст для Claude Code, Cursor, Codex и других AI-агентов"
 layout: page
-updated: 2026-09-07
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 
 # 💎 [ilyautov/humanizer-ru](https://github.com/ilyautov/humanizer-ru)
 
-**★ 292** · exceptional (score 15.7) · Python · agent-skills, ai-detection, ai-writing-detection, anthropic, anti-ai-detector
+**★ 301** · exceptional (score 15.7) · Python · agent-skills, ai-detection, anthropic, anti-ai-detector, claude
 
 > humanizer-ru: очеловечить русский AI-текст для Claude Code, Cursor, Codex и других AI-агентов
 
 ## Why cue indexed it
 
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 15.7 based on:
-- ⭐ 292 stars
-- 🗓️ Last pushed: 2026-09-07
-- 🏷️ Tags: agent-skills, ai-detection, ai-writing-detection, anthropic, anti-ai-detector, chatgpt-humanizer, claude, claude-code, claude-cowork, claude-skill, codex-cli, copywriting, cursor, gemini-cli, humanizer, humanizer-ru, russian, skill-md, text-humanizer, ux-writing
+- ⭐ 301 stars
+- 🗓️ Last pushed: 2026-09-09
+- 🏷️ Tags: agent-skills, ai-detection, anthropic, anti-ai-detector, claude, claude-code, claude-code-skills, claude-cowork, claude-skill, claude-skills, codex-cli, copywriting, cursor, gemini-cli, humanizer, humanizer-ru, russian, skill-md, text-humanizer, ux-writing
 
 ## Best fit cue profiles
 

@@ -2,7 +2,7 @@
 title: "Claude Code Skills for docs-writer"
 description: "1 community Claude Code skills curated by cue for the docs-writer profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, docs-writer, skills, mcp, ai-agents]
 ---
 
@@ -18,7 +18,7 @@ tags: [claude-code, docs-writer, skills, mcp, ai-agents]
 <a id="onourimpram-mneme"></a>
 ## 💎 [OnourImpram/mneme](https://github.com/OnourImpram/mneme)
 
-**★ 2** · exceptional (score 10.5) · Python · tags: agent-memory, anthropic, claude, claude-code, codex
+**★ 2** · exceptional (score 10.4) · Python · tags: agent-memory, anthropic, claude, claude-code, codex
 
 Plain-Markdown memory for Claude Code and MCP. Local retrieval, redaction before indexing, no model on the Stop path.
 

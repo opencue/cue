@@ -1,23 +1,23 @@
 ---
 title: "theluckystrike/mcp-servers — Claude Code skill discovered by cue"
-description: "Practical MCP servers: time tracker, price tracker, spreadsheet, invoice. Local, offline-licensed, one-time Pro."
+description: "31 local-first MCP servers for back-office work: invoices, VAT, PDFs, spreadsheets, time tracking, expenses. Free tier, one-time Pro, no account. Also hosted."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 
 # ✨ [theluckystrike/mcp-servers](https://github.com/theluckystrike/mcp-servers)
 
-**★ 0** · strong (score 6) · JavaScript · claude, cursor, invoice, mcp, mcp-server
+**★ 0** · strong (score 6) · JavaScript · accounting, ai-tools, bookkeeping, claude, claude-desktop
 
-> Practical MCP servers: time tracker, price tracker, spreadsheet, invoice. Local, offline-licensed, one-time Pro.
+> 31 local-first MCP servers for back-office work: invoices, VAT, PDFs, spreadsheets, time tracking, expenses. Free tier, one-time Pro, no account. Also hosted.
 
 ## Why cue indexed it
 
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 6 based on:
 - ⭐ 0 stars
-- 🗓️ Last pushed: 2026-09-08
-- 🏷️ Tags: claude, cursor, invoice, mcp, mcp-server, model-context-protocol, price-tracker, spreadsheet, time-tracker, typescript
+- 🗓️ Last pushed: 2026-09-09
+- 🏷️ Tags: accounting, ai-tools, bookkeeping, claude, claude-desktop, cursor, freelance, invoice, invoicing, local-first, mcp, mcp-server, mcp-servers, model-context-protocol, pdf, self-hosted, spreadsheet, time-tracking, typescript, vat
 
 ## Best fit cue profiles
 

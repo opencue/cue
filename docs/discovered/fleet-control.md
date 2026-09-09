@@ -1,17 +1,58 @@
 ---
 title: "Claude Code Skills for fleet-control"
-description: "3 community Claude Code skills curated by cue for the fleet-control profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "6 community Claude Code skills curated by cue for the fleet-control profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, fleet-control, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `fleet-control`
 
-> 3 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **fleet-control** profile.
+> 6 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **fleet-control** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
+
+---
+
+<a id="vikashjeyaraman-opencouncil-contract-inspector"></a>
+## 💎 [vikashjeyaraman/opencouncil-contract-inspector](https://github.com/vikashjeyaraman/opencouncil-contract-inspector)
+
+**★ 121** · exceptional (score 13.4) · HTML · tags: agent-orchestration, ai-agents, ai-hallucination, ai-quality, anthropic
+
+Proven 2026 Multi-Agent AI Review System – Verdict-Driven Quality Control
+
+```bash
+cue skills add vikashjeyaraman/opencouncil-contract-inspector --profile fleet-control
+```
+
+---
+
+<a id="ginkida-agent-dispatch"></a>
+## 💎 [ginkida/agent-dispatch](https://github.com/ginkida/agent-dispatch)
+
+**★ 29** · exceptional (score 12.1) · Python · tags: agent-orchestration, agentic-ai, agents, ai-agents, anthropic
+
+MCP server + CLI that lets Claude Code agents delegate tasks to agents in other project directories. Multi-agent orchestration: parallel dispatch, sessions, async jobs, agent dialogues.
+
+```bash
+cue skills add ginkida/agent-dispatch --profile fleet-control
+```
+
+---
+
+<a id="jaywavfeng-tiered-agent-orchestrator"></a>
+## 💎 [jaywavfeng/tiered-agent-orchestrator](https://github.com/jaywavfeng/tiered-agent-orchestrator)
+
+**★ 1** · exceptional (score 11.3) · Python · tags: agent-orchestration, agent-skills, claude-code-skill, claude-skills, codex-skills
+
+Use strong models for decisions, economy models for execution, and repository-backed state for long-running engineering.
+
+✅ SKILL.md
+
+```bash
+cue skills add jaywavfeng/tiered-agent-orchestrator --profile fleet-control
+```
 
 ---
 
@@ -28,19 +69,6 @@ cue skills add aadiieee/multi-agent-revenue-orchestrator --profile fleet-control
 
 ---
 
-<a id="komsamoilenko-council"></a>
-## 💎 [komsamoilenko/council](https://github.com/komsamoilenko/council)
-
-**★ 0** · exceptional (score 8.5) · tags: ai-agents, claude, claude-code, codex, gemini
-
-An MCP server that lets the AI assistant you are talking to consult a different vendors assistant, under your own subscriptions, and records what it cost.
-
-```bash
-cue skills add komsamoilenko/council --profile fleet-control
-```
-
----
-
 <a id="nuttaruj-rolepod"></a>
 ## 💎 [nuttaruj/rolepod](https://github.com/nuttaruj/rolepod)
 
@@ -50,6 +78,19 @@ Universal AI dev-team workflow for 6 CLIs (Claude Code, Codex, Gemini, Cursor, A
 
 ```bash
 cue skills add nuttaruj/rolepod --profile fleet-control
+```
+
+---
+
+<a id="eduardo-salvador-agent-harness-kit"></a>
+## 💎 [Eduardo-Salvador/Agent-Harness-Kit](https://github.com/Eduardo-Salvador/Agent-Harness-Kit)
+
+**★ 6** · exceptional (score 8) · Python · tags: agent-harness, agent-orchestration, agentic-workflows, ai-agents, claude-code
+
+An installable harness for Codex and Claude Code that gives coding agents durable context, scoped task graphs, bounded execution, and a clear path from idea to verified delivery.
+
+```bash
+cue skills add Eduardo-Salvador/Agent-Harness-Kit --profile fleet-control
 ```
 
 ---

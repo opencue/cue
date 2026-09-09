@@ -2,21 +2,21 @@
 title: "PHPCraftdream/rust-intel — Claude Code skill discovered by cue"
 description: "A living spec defending against the 26 categories of mistakes LLMs systematically make in Rust. Claude Code skill + 3 slash commands (rust-audit, rust-fix, rust"
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, cybersecurity]
 ---
 
 # 💎 [PHPCraftdream/rust-intel](https://github.com/PHPCraftdream/rust-intel)
 
-**★ 1** · exceptional (score 8.8) · JavaScript · audit, claude-code, claude-code-plugin, claude-code-skill, code-review
+**★ 2** · exceptional (score 9) · JavaScript · audit, claude-code, claude-code-plugin, claude-code-skill, code-review
 
 > A living spec defending against the 26 categories of mistakes LLMs systematically make in Rust. Claude Code skill + 3 slash commands (rust-audit, rust-fix, rust-plan) built on a single source of truth.
 
 ## Why cue indexed it
 
-cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 8.8 based on:
-- ⭐ 1 stars
-- 🗓️ Last pushed: 2026-09-08
+cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 9 based on:
+- ⭐ 2 stars
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: audit, claude-code, claude-code-plugin, claude-code-skill, code-review, correctness, llm, performance, rust, security
 
 ## Best fit cue profiles

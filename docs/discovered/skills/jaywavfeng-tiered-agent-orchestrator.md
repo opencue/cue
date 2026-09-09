@@ -2,7 +2,7 @@
 title: "jaywavfeng/tiered-agent-orchestrator — Claude Code skill discovered by cue"
 description: "Use strong models for decisions, economy models for execution, and repository-backed state for long-running engineering."
 layout: page
-updated: 2026-08-30
+updated: 2026-09-09
 tags: [claude-code, skill, fleet-control]
 ---
 
@@ -17,7 +17,7 @@ tags: [claude-code, skill, fleet-control]
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 11.3 based on:
 - ✅ Contains SKILL.md
 - ⭐ 1 stars
-- 🗓️ Last pushed: 2026-08-30
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: agent-orchestration, agent-skills, claude-code-skill, claude-skills, codex-skills, multi-agent, token-efficiency
 
 ## Best fit cue profiles

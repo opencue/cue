@@ -2,7 +2,7 @@
 title: "FlorianBruniaux/flow-lean — Claude Code skill discovered by cue"
 description: "Model-agnostic output control for LLM agents: concise, action-first answers with proof and risk preserved. Native install paths for Claude Code and Codex."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 

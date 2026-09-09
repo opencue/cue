@@ -1,24 +1,50 @@
 ---
 title: "Claude Code Skills for research"
-description: "2 community Claude Code skills curated by cue for the research profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "4 community Claude Code skills curated by cue for the research profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, research, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `research`
 
-> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **research** profile.
+> 4 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **research** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
 
 ---
 
+<a id="ljx-chase-research-field-onboarding"></a>
+## 💎 [ljx-chase/research-field-onboarding](https://github.com/ljx-chase/research-field-onboarding)
+
+**★ 12** · exceptional (score 9.8) · Python · tags: academic-research, agent-skill, agent-skills, chatgpt-skills, claude-code-skill
+
+A reusable research-onboarding skill for **Claude, ChatGPT, Codex, and other instruction-following agents**.
+
+```bash
+cue skills add ljx-chase/research-field-onboarding --profile research
+```
+
+---
+
+<a id="aemro-motors-popper-scope"></a>
+## 💎 [aemro-motors/popper-scope](https://github.com/aemro-motors/popper-scope)
+
+**★ 0** · exceptional (score 9) · HTML · tags: claude-code, claude-code-plugin, claude-code-plugins, claude-code-plugins-marketplace, claude-code-skill
+
+Popper Probe Repo: Automated Vulnerability Scanner 2026 - Smart GitHub Code Analysis
+
+```bash
+cue skills add aemro-motors/popper-scope --profile research
+```
+
+---
+
 <a id="neverbiasu-awesome-research-skills"></a>
 ## ✨ [neverbiasu/awesome-research-skills](https://github.com/neverbiasu/awesome-research-skills)
 
-**★ 1** · strong (score 5.3) · tags: academic-research, agent-skills, ai-agents, ai-for-research, awesome
+**★ 1** · strong (score 5.2) · tags: academic-research, agent-skills, ai-agents, ai-for-research, awesome
 
 137 Agent Skills (SKILL.md) for academic and scientific research, curated one directory at a time — literature, study design, experiments, statistics, figures, writing, peer review. Each entry links to one exact path, with its own license, freshness, and capability flags.
 

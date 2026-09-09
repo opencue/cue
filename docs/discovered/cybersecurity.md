@@ -2,7 +2,7 @@
 title: "Claude Code Skills for cybersecurity"
 description: "4 community Claude Code skills curated by cue for the cybersecurity profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, cybersecurity, skills, mcp, ai-agents]
 ---
 
@@ -18,7 +18,7 @@ tags: [claude-code, cybersecurity, skills, mcp, ai-agents]
 <a id="elementalsouls-claude-osint"></a>
 ## 💎 [elementalsouls/Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT)
 
-**★ 2568** · exceptional (score 13.6) · Python · tags: agentskills, claude, skills
+**★ 2579** · exceptional (score 13.6) · Python · tags: agentskills, claude, skills
 
 8 Claude skills · 100+ recon capabilities · 80 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · ~10,000 lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-mode external recon operator for authorized red-team and bug-bounty engagements.
 
@@ -44,7 +44,7 @@ cue skills add eriknewton/sanctuary-framework --profile cybersecurity
 <a id="phpcraftdream-rust-intel"></a>
 ## 💎 [PHPCraftdream/rust-intel](https://github.com/PHPCraftdream/rust-intel)
 
-**★ 1** · exceptional (score 8.8) · JavaScript · tags: audit, claude-code, claude-code-plugin, claude-code-skill, code-review
+**★ 2** · exceptional (score 9) · JavaScript · tags: audit, claude-code, claude-code-plugin, claude-code-skill, code-review
 
 A living spec defending against the 26 categories of mistakes LLMs systematically make in Rust. Claude Code skill + 3 slash commands (rust-audit, rust-fix, rust-plan) built on a single source of truth.
 
@@ -57,7 +57,7 @@ cue skills add PHPCraftdream/rust-intel --profile cybersecurity
 <a id="secblok-belay"></a>
 ## ✨ [SECBLOK/belay](https://github.com/SECBLOK/belay)
 
-**★ 4** · strong (score 5.8) · Rust · tags: ai-agents, ai-safety, ai-security, ai-security-tool, claude-code
+**★ 4** · strong (score 5.7) · Rust · tags: ai-agents, ai-safety, ai-security, ai-security-tool, claude-code
 
 Belay is an open-source, local-first security layer for AI coding agents (Claude Code, Codex, Cursor, OpenClaw, Hermes Agent and MCP) that blocks dangerous commands, secret leaks, and prompt injection at the tool-call boundary in under 100ms — no LLM in the decision path by default, no cloud, no phone-home.
 

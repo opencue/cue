@@ -2,7 +2,7 @@
 title: "raystyle/ohmyenv-rs — Claude Code skill discovered by cue"
 description: "Oh My Env（ome）：本机跨平台环境部署管理 CLI——43 工具（含 Claude Code、Codex、Grok、Kimi 四家 agent 二进制）的版本解析、下载校验、PATH 注册、pin 锁定、doctor 三层诊断（系统/agent/依赖），官方渠道失败回落 env.ohmygh.com 自建镜像"
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 
@@ -17,7 +17,7 @@ tags: [claude-code, skill, core]
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 9.3 based on:
 - ✅ Contains SKILL.md
 - ⭐ 1 stars
-- 🗓️ Last pushed: 2026-09-08
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: cli, cross-platform, developer-tools, environment-management, package-manager, rust
 
 ## Best fit cue profiles

@@ -2,19 +2,19 @@
 title: "neverbiasu/awesome-research-skills — Claude Code skill discovered by cue"
 description: "137 Agent Skills (SKILL.md) for academic and scientific research, curated one directory at a time — literature, study design, experiments, statistics, figures, "
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, research]
 ---
 
 # ✨ [neverbiasu/awesome-research-skills](https://github.com/neverbiasu/awesome-research-skills)
 
-**★ 1** · strong (score 5.3) · academic-research, agent-skills, ai-agents, ai-for-research, awesome
+**★ 1** · strong (score 5.2) · academic-research, agent-skills, ai-agents, ai-for-research, awesome
 
 > 137 Agent Skills (SKILL.md) for academic and scientific research, curated one directory at a time — literature, study design, experiments, statistics, figures, writing, peer review. Each entry links to one exact path, with its own license, freshness, and capability flags.
 
 ## Why cue indexed it
 
-cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 5.3 based on:
+cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 5.2 based on:
 - ⭐ 1 stars
 - 🗓️ Last pushed: 2026-09-06
 - 🏷️ Tags: academic-research, agent-skills, ai-agents, ai-for-research, awesome, awesome-list, claude-code, codex, llm-agents, open-science, reproducible-research, research-tools, research-workflow, scientific-research, skill-md, skills

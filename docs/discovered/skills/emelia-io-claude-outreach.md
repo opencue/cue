@@ -2,21 +2,21 @@
 title: "emelia-io/claude-outreach — Claude Code skill discovered by cue"
 description: "Universal B2B outreach skill for Claude Code. 16 sub-skills + 5 sub-agents: ICP targeting, lead sourcing, email finder, phone finder, verification, AI personali"
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, marketing]
 ---
 
-# ✨ [emelia-io/claude-outreach](https://github.com/emelia-io/claude-outreach)
+# 💎 [emelia-io/claude-outreach](https://github.com/emelia-io/claude-outreach)
 
-**★ 1** · strong (score 7.3) · Python · ai, ai-sdr, b2b, claude-code, claude-code-skill
+**★ 6** · exceptional (score 8) · Python · ai, ai-sdr, b2b, claude-code, claude-code-skill
 
 > Universal B2B outreach skill for Claude Code. 16 sub-skills + 5 sub-agents: ICP targeting, lead sourcing, email finder, phone finder, verification, AI personalization, multichannel sequences, deliverability, campaign launch, reply handling and GDPR compliance.
 
 ## Why cue indexed it
 
-cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 7.3 based on:
-- ⭐ 1 stars
-- 🗓️ Last pushed: 2026-09-08
+cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 8 based on:
+- ⭐ 6 stars
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: ai, ai-sdr, b2b, claude-code, claude-code-skill, cold-email, email-finder, email-verification, gtm, lead-generation, linkedin-automation, marketing-automation, mcp, open-source, outreach, prospecting, sales-automation, sales-engagement
 
 ## Best fit cue profiles

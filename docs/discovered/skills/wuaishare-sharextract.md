@@ -2,7 +2,7 @@
 title: "wuaishare/sharextract — Claude Code skill discovered by cue"
 description: "ShareXtract · 公开分享内容提取 / Protocol-first public share extractor · AI 对话、社交内容、媒体与开放网页 / AI chats, social posts, media & open web · Agent Skill"
 layout: page
-updated: 2026-09-07
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 
@@ -17,7 +17,7 @@ tags: [claude-code, skill, core]
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 11 based on:
 - ✅ Contains SKILL.md
 - ⭐ 0 stars
-- 🗓️ Last pushed: 2026-09-07
+- 🗓️ Last pushed: 2026-09-09
 - 🏷️ Tags: agent-skills, atproto, claude-code-skill, claude-skills, content-extraction, llm, mcp, oembed, open-source, python, share-links, web-content
 
 ## Best fit cue profiles

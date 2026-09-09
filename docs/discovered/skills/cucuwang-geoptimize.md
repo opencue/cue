@@ -1,23 +1,23 @@
 ---
 title: "cucuwang/geoptimize — Claude Code skill discovered by cue"
-description: "Deterministic content-readiness lint for static websites and documentation — free, local, CI-ready. Lint your docs like code."
+description: "Deterministic GEO content-readiness lint for static websites and documentation. Formerly aeoptimize. Free, local, CI-ready."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, skill, core]
 ---
 
-# ✨ [cucuwang/geoptimize](https://github.com/cucuwang/geoptimize)
+# 💎 [cucuwang/geoptimize](https://github.com/cucuwang/geoptimize)
 
-**★ 1** · strong (score 7.8) · TypeScript · aeo, ai-search, ai-seo, answer-engine-optimization, claude-code-skill
+**★ 15** · exceptional (score 9.2) · TypeScript · ai-search, ai-seo, claude-code-skill, content-linter, generative-engine-optimization
 
-> Deterministic content-readiness lint for static websites and documentation — free, local, CI-ready. Lint your docs like code.
+> Deterministic GEO content-readiness lint for static websites and documentation. Formerly aeoptimize. Free, local, CI-ready.
 
 ## Why cue indexed it
 
-cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 7.8 based on:
-- ⭐ 1 stars
-- 🗓️ Last pushed: 2026-09-08
-- 🏷️ Tags: aeo, ai-search, ai-seo, answer-engine-optimization, claude-code-skill, content-linter, generative-engine-optimization, github-actions, json-ld, llms-txt, nextjs, seo, static-site, structured-data, vite
+cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 9.2 based on:
+- ⭐ 15 stars
+- 🗓️ Last pushed: 2026-09-09
+- 🏷️ Tags: ai-search, ai-seo, claude-code-skill, content-linter, generative-engine-optimization, geo, github-actions, json-ld, llms-txt, nextjs, seo, static-site, structured-data, vite
 
 ## Best fit cue profiles
 

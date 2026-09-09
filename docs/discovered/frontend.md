@@ -1,17 +1,32 @@
 ---
 title: "Claude Code Skills for frontend"
-description: "2 community Claude Code skills curated by cue for the frontend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "3 community Claude Code skills curated by cue for the frontend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [claude-code, frontend, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `frontend`
 
-> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **frontend** profile.
+> 3 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **frontend** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
+
+---
+
+<a id="elias-khalil-eng-khalil-zero-cost-stack"></a>
+## 💎 [elias-khalil-eng/khalil-zero-cost-stack](https://github.com/elias-khalil-eng/khalil-zero-cost-stack)
+
+**★ 0** · exceptional (score 13) · TypeScript · tags: agent-skills, ai-agents, claude-code, claude-skill, google-sheets
+
+Claude Code skill for building internal ops apps at $0/month: React SPA + one serverless function + a spreadsheet as the database
+
+✅ SKILL.md
+
+```bash
+cue skills add elias-khalil-eng/khalil-zero-cost-stack --profile frontend
+```
 
 ---
 
@@ -28,15 +43,15 @@ cue skills add ezra-y/awesome-claude-ui-armory --profile frontend
 
 ---
 
-<a id="pepinorancio1-sticky-switcher-funnel-playbook"></a>
-## 💎 [PepinoRancio1/sticky-switcher-funnel-playbook](https://github.com/PepinoRancio1/sticky-switcher-funnel-playbook)
+<a id="aditya-ariosity-ux-ui-skills"></a>
+## ✨ [aditya-ariosity/ux-ui-skills](https://github.com/aditya-ariosity/ux-ui-skills)
 
-**★ 0** · exceptional (score 9) · HTML · tags: agency-toolkit, ai-coding-agent, claude-code, claude-code-skill, conversion-optimization
+**★ 2** · strong (score 6.5) · Python · tags: accessibility, accessibility-checker, accessibility-testing, accessibility-tools, agent-skills
 
-Modern Web Design Playbook 2026 – Niche Tokens, Sticky Switcher & Conversion Funnel
+A free UX/UI skill pack for Claude, Codex and ChatGPT covering audits, dashboard redesigns, design systems, AI product design, portfolio case studies, and developer handoff.
 
 ```bash
-cue skills add PepinoRancio1/sticky-switcher-funnel-playbook --profile frontend
+cue skills add aditya-ariosity/ux-ui-skills --profile frontend
 ```
 
 ---
