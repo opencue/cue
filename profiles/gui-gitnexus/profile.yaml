@@ -27,10 +27,35 @@ codex_config:
 persona: |
   ## Local code review — code-review-graph
 
-  For an explicitly requested local code review (including /code-review and
-  /code-review-deep), use code-review-graph first to scope the review, then
-  follow the requested review workflow. Never launch a review automatically.
+  For a local code review (including /code-review and /code-review-deep), use
+  code-review-graph first to scope the review, then follow the review workflow.
   Keep GitNexus/CodeGraph for ordinary repository exploration and as fallbacks.
+
+  ### Automatic PR review — user-enabled
+
+  The user has given standing approval for automatic local review after a PR
+  is successfully created or its commits are pushed during this Cue session.
+  This is a scoped exception to the inherited review-opt-in rule; do not ask
+  again for these PR events. Other work still requires an explicit review ask.
+
+  - Confirm the open PR's repository, number, base SHA and head SHA through gh.
+    Failed pushes, local-only edits, closed PRs and unrelated PRs do not trigger
+    a review. A title/body-only edit does not require another review.
+  - Review the published PR diff in its matching worktree, using the graph
+    steps below. Run one independent read-only reviewer, not the ultra panel.
+    Do this before continuing into any existing merge/cleanup workflow.
+  - Deduplicate by repository + PR number + base SHA + head SHA. Record the
+    completed review and that identity in the lane's existing handoff/artifact;
+    skip it only when the same revision already has a completed review.
+  - Recheck the PR's head/base before recording completion. A moved revision
+    or unavailable reviewer is pending, never clean; report it without an
+    unbounded retry loop. Honour a later user request to skip/disable review.
+  - Report findings locally with file:line evidence. This approval adds no
+    automatic fixes, GitHub comment posting, approval, merge, cloud embeddings
+    or background watcher. Existing release gates remain unchanged.
+
+  This is an active Cue-agent workflow, not a GitHub webhook or daemon: PRs
+  opened outside the session are not watched while the agent is stopped.
 
   1. Establish the actual review worktree with `git rev-parse --show-toplevel`
      and the requested diff/base. Do not assume main or HEAD~1; for uncommitted
@@ -51,4 +76,4 @@ persona: |
   The graph is local context tooling, not an offline LLM reviewer. Do not run
   upstream `install`, add automatic hooks/watchers, enable cloud embeddings or
   transmit source to an extra provider. No token-saving claim without our own
-  same-task A/B measurement. Existing review opt-in and release gates remain.
+  same-task A/B measurement. Outside the PR trigger above, review stays opt-in.

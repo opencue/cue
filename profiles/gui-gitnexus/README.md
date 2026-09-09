@@ -5,10 +5,25 @@ This Codex-only overlay keeps GitNexus and adds
 through `uvx`. It is already part of the GUI's
 `nextjs+browser+frontend+tanstack+gui-gitnexus` selector.
 
-Only six structural graph tools are exposed. No upstream installer, automatic
-review, watcher, GitHub workflow, embedding provider, or global agent config is
-enabled. Graph construction/querying is local; the selected coding agent is
-still responsible for the review and may use its normal remote model.
+Only six structural graph tools are exposed. Graph construction/querying is
+local; the selected coding agent performs the review using its normal model.
+
+## Automatic PR review
+
+The user enabled automatic review for PRs successfully created or updated with
+new commits **during an active Cue session using this overlay**. One independent
+read-only reviewer uses the local graph and published diff before the existing
+merge/cleanup workflow continues. Completed reviews are deduplicated by repo,
+PR number, base SHA and head SHA in the lane's existing handoff/artifact.
+
+Local edits, failed pushes, closed/unrelated PRs and metadata-only updates do
+not trigger reviews. Failed/incomplete reviews are pending, not clean. A later
+user skip/disable request overrides the standing approval.
+
+This is agent workflow guidance, not an always-on webhook: PRs created elsewhere
+while Cue is stopped are not watched. No global Stop-hook flag, upstream
+installer, watcher, GitHub workflow, embeddings, automatic fixes, review-comment
+posting, approval or merge is enabled by this setting.
 
 ## Local setup and checks
 
@@ -28,6 +43,6 @@ review diff base explicitly instead of inheriting upstream's `HEAD~1` default.
 
 A new Cue-launched Codex session loads the server and review routing. Verify
 MCP initialization/tool listing and a bounded graph query; profile validation
-alone does not prove the server works. This setup does not run a review.
+alone does not prove the server works or that an agent has completed a PR review.
 
 The upstream token-reduction illustration is not a measured result for GUI.
