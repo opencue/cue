@@ -36,12 +36,13 @@ persona: |
     specific action.
 skills:
   local:
-    - career/ai-job-search
-    - career/jdfit
-    - career/resume-tailor
-    - career/tech-resume-optimizer
-    - career/salary-negotiation-prep
+    # Only skills that exist at the pinned resources/skills commit. The rest of
+    # `career/` (jdfit, resume-tailor, tech-resume-optimizer, ...) are nested
+    # gitlinks there, so a clean checkout can't resolve them.
+    - career/ai-job-search        # the workspace itself
+    - career/job-hunter           # lighter generic campaign flow, no workspace
     - career/resume-version-manager
+    - career/salary-negotiation-prep
 # No extra MCP servers. `/notion-sync` needs the Notion MCP and `/gmail-sync`
 # the Gmail connector; both are optional and not in cue's registry, so wire them
 # per-session if you use those two commands.
