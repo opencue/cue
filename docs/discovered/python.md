@@ -1,17 +1,30 @@
 ---
 title: "Claude Code Skills for python"
-description: "1 community Claude Code skills curated by cue for the python profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "2 community Claude Code skills curated by cue for the python profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, python, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `python`
 
-> 1 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **python** profile.
+> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **python** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
+
+---
+
+<a id="nichsedge-portfolio-integration"></a>
+## ✨ [nichsedge/portfolio-integration](https://github.com/nichsedge/portfolio-integration)
+
+**★ 0** · strong (score 7.5) · Python · tags: automation, binance, cryptocurrency, data-integration, debank
+
+Unified financial portfolio ETL pipeline & MCP server aggregating KSEI, DeBank, Binance, and Alchemy into daily snapshots and AI digests.
+
+```bash
+cue skills add nichsedge/portfolio-integration --profile python
+```
 
 ---
 

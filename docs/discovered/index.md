@@ -1,8 +1,8 @@
 ---
 title: "Discovered Claude Code Skills"
-description: "100 community Claude Code skills curated by cue across 10 profiles. Find skills for backend, frontend, marketing, cybersecurity, and more."
+description: "100 community Claude Code skills curated by cue across 11 profiles. Find skills for backend, frontend, marketing, cybersecurity, and more."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, skills, mcp, ai-agents, marketplace]
 ---
 
@@ -10,23 +10,24 @@ tags: [claude-code, skills, mcp, ai-agents, marketplace]
 
 These are community-built skills for Claude Code, Codex, and other AI coding agents, discovered by cue via GitHub Code Search and scored on signal quality (stars, recency, structure). Updated automatically.
 
-> **100 hidden-gem skills** discovered by [cue](https://github.com/opencue/cuecards) across **10 profiles**.
-> Last updated: 2026-09-09 · refreshed nightly via GitHub Code Search.
+> **100 hidden-gem skills** discovered by [cue](https://github.com/opencue/cuecards) across **11 profiles**.
+> Last updated: 2026-09-10 · refreshed nightly via GitHub Code Search.
 
 ## Browse by profile
 
 | Profile | Skills | Sample |
 |---|---|---|
-| [**core**](./core.md) | 70 | `trace-mcp`, `travel-plan-viz`, `arifOS` |
-| [**backend**](./backend.md) | 11 | `model-compose`, `khalil-zero-cost-stack`, `NyxID` |
-| [**fleet-control**](./fleet-control.md) | 6 | `opencouncil-contract-inspector`, `agent-dispatch`, `tiered-agent-orchestrator` |
-| [**cybersecurity**](./cybersecurity.md) | 4 | `Claude-OSINT`, `sanctuary-framework`, `rust-intel` |
-| [**research**](./research.md) | 4 | `research-field-onboarding`, `popper-scope`, `awesome-research-skills` |
-| [**frontend**](./frontend.md) | 3 | `khalil-zero-cost-stack`, `awesome-claude-ui-armory`, `ux-ui-skills` |
-| [**creative-media**](./creative-media.md) | 2 | `visual-attention-audit`, `redesigned-pancake` |
-| [**docs-writer**](./docs-writer.md) | 1 | `mneme` |
-| [**marketing**](./marketing.md) | 1 | `claude-outreach` |
-| [**python**](./python.md) | 1 | `alfred` |
+| [**core**](./core.md) | 62 | `humanizer-de`, `GodotMaker`, `inspector` |
+| [**backend**](./backend.md) | 17 | `notebooklm-skill`, `tabularis`, `trigger.dev` |
+| [**cybersecurity**](./cybersecurity.md) | 5 | `Claude-OSINT`, `awesome-agent-skills`, `claude-security-research-skill` |
+| [**research**](./research.md) | 4 | `google-ai-mode-skill`, `notebooklm-skill`, `awesome-research-skills` |
+| [**docs-writer**](./docs-writer.md) | 4 | `github-readme-writer`, `mneme`, `llm-wiki` |
+| [**creative-media**](./creative-media.md) | 3 | `spotkit`, `archify`, `redesigned-pancake` |
+| [**fleet-control**](./fleet-control.md) | 3 | `rolepod`, `Agent-Harness-Kit`, `external-agents` |
+| [**frontend**](./frontend.md) | 2 | `google-fonts-skill`, `awesome-claude-ui-armory` |
+| [**python**](./python.md) | 2 | `portfolio-integration`, `alfred` |
+| [**video**](./video.md) | 1 | `FunASR` |
+| [**medusa-dev**](./medusa-dev.md) | 1 | `goodbarber-skills` |
 
 ## How scoring works
 

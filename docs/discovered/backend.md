@@ -1,57 +1,109 @@
 ---
 title: "Claude Code Skills for backend"
-description: "11 community Claude Code skills curated by cue for the backend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "17 community Claude Code skills curated by cue for the backend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, backend, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `backend`
 
-> 11 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **backend** profile.
+> 17 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **backend** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
 
 ---
 
-<a id="hanyeol-model-compose"></a>
-## 💎 [hanyeol/model-compose](https://github.com/hanyeol/model-compose)
+<a id="jakubs2623-notebooklm-skill"></a>
+## 💎 [jakubs2623/notebooklm-skill](https://github.com/jakubs2623/notebooklm-skill)
 
-**★ 86** · exceptional (score 13.4) · Python · tags: agent-framework, ai-agents, ai-infrastructure, ai-workflow, anthropic
+**★ 7** · exceptional (score 17.3) · Python · tags: agentic-skill, ai-agents, ai-research, antigravity, api
 
-Deploy production-ready AI services in minutes. One YAML file for agents, RAG pipelines, and MCP servers — run anywhere. Inspired by docker-compose.
-
-```bash
-cue skills add hanyeol/model-compose --profile backend
-```
-
----
-
-<a id="elias-khalil-eng-khalil-zero-cost-stack"></a>
-## 💎 [elias-khalil-eng/khalil-zero-cost-stack](https://github.com/elias-khalil-eng/khalil-zero-cost-stack)
-
-**★ 0** · exceptional (score 13) · TypeScript · tags: agent-skills, ai-agents, claude-code, claude-skill, google-sheets
-
-Claude Code skill for building internal ops apps at $0/month: React SPA + one serverless function + a spreadsheet as the database
+Connect NotebookLM research with Claude to generate structured content from URLs, PDFs, and trending topics for multi-platform publishing.
 
 ✅ SKILL.md
 
 ```bash
-cue skills add elias-khalil-eng/khalil-zero-cost-stack --profile backend
+cue skills add jakubs2623/notebooklm-skill --profile backend
 ```
 
 ---
 
-<a id="chronoaiproject-nyxid"></a>
-## 💎 [ChronoAIProject/NyxID](https://github.com/ChronoAIProject/NyxID)
+<a id="tabularisdb-tabularis"></a>
+## 💎 [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis)
 
-**★ 36** · exceptional (score 12.3) · Rust · tags: ai-agents, api-gateway, claude-code, codex, credential-management
+**★ 4885** · exceptional (score 17) · TypeScript · tags: ai-agent, ai-assistant, cross-platform, database-client, database-gui
 
-Connect AI agents to any API, anywhere. Securely. Open-source gateway that proxies requests, injects credentials automatically, punches through NAT to reach localhost services, and wraps REST APIs as MCP tools. Per-agent isolation. Never expose a raw key.
+Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.
 
 ```bash
-cue skills add ChronoAIProject/NyxID --profile backend
+cue skills add TabularisDB/tabularis --profile backend
+```
+
+---
+
+<a id="triggerdotdev-trigger-dev"></a>
+## 💎 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+
+**★ 16248** · exceptional (score 16) · TypeScript · tags: ai, ai-agent-framework, ai-agents, automation, background-jobs
+
+Trigger.dev – build and deploy fully‑managed AI agents and workflows
+
+```bash
+cue skills add triggerdotdev/trigger.dev --profile backend
+```
+
+---
+
+<a id="modelscope-funasr"></a>
+## 💎 [modelscope/FunASR](https://github.com/modelscope/FunASR)
+
+**★ 20258** · exceptional (score 16) · Python · tags: asr, audio, chinese, emotion-recognition, funasr
+
+Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.
+
+```bash
+cue skills add modelscope/FunASR --profile backend
+```
+
+---
+
+<a id="n8n-io-n8n"></a>
+## 💎 [n8n-io/n8n](https://github.com/n8n-io/n8n)
+
+**★ 203907** · exceptional (score 14) · TypeScript · tags: ai, apis, automation, cli, data-flow
+
+Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+
+```bash
+cue skills add n8n-io/n8n --profile backend
+```
+
+---
+
+<a id="sendmux-sendmux-sdk"></a>
+## 💎 [Sendmux/sendmux-sdk](https://github.com/Sendmux/sendmux-sdk)
+
+**★ 73** · exceptional (score 13.1) · PHP · tags: cli, cli-tool, email, email-automation, email-marketing
+
+Official monorepo of SDKs, CLI, and MCP servers for Sendmux email APIs across TypeScript, Python, Go, PHP, Rust, and Ruby.
+
+```bash
+cue skills add Sendmux/sendmux-sdk --profile backend
+```
+
+---
+
+<a id="zipstack-unstract"></a>
+## 💎 [Zipstack/unstract](https://github.com/Zipstack/unstract)
+
+**★ 7230** · exceptional (score 13) · Python · tags: ai-agents, data-engineering, document-ai, generative-ai, idp
+
+LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows
+
+```bash
+cue skills add Zipstack/unstract --profile backend
 ```
 
 ---
@@ -72,7 +124,7 @@ cue skills add DaizeDong/schedule-reminder --profile backend
 <a id="hproxy-com-free-proxy-list"></a>
 ## 💎 [hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list)
 
-**★ 50** · exceptional (score 10.3) · tags: ai-agents, anonymous-proxy, free-proxies, free-proxy, free-proxy-api
+**★ 51** · exceptional (score 10.4) · tags: ai-agents, anonymous-proxy, free-proxies, free-proxy, free-proxy-api
 
 Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.
 
@@ -95,28 +147,67 @@ cue skills add renefichtmueller/adaptive-llm-gateway --profile backend
 
 ---
 
-<a id="gordonkjlee-facthouse"></a>
-## 💎 [gordonkjlee/facthouse](https://github.com/gordonkjlee/facthouse)
+<a id="giantswarm-mcp-kubernetes"></a>
+## 💎 [giantswarm/mcp-kubernetes](https://github.com/giantswarm/mcp-kubernetes)
 
-**★ 2** · exceptional (score 8) · TypeScript · tags: ai-memory, knowledge-engine, mcp, mcp-server, memory-system
+**★ 2** · exceptional (score 8) · Go · tags: kubernetes, mcp-server
 
-A local memory engine any AI tool can use.
+Model Context Protocol (MCP) server for Kubernetes
 
 ```bash
-cue skills add gordonkjlee/facthouse --profile backend
+cue skills add giantswarm/mcp-kubernetes --profile backend
 ```
 
 ---
 
-<a id="weavatrix-weavatrix"></a>
-## ✨ [Weavatrix/weavatrix](https://github.com/Weavatrix/weavatrix)
+<a id="ali-adel-nour-arbitra"></a>
+## ✨ [Ali-Adel-Nour/Arbitra](https://github.com/Ali-Adel-Nour/Arbitra)
 
-**★ 4** · strong (score 6.8) · JavaScript · tags: ai-agents, claude, clone-detection, code-graph, dead-code
+**★ 9** · strong (score 7.2) · TypeScript · tags: ai-agents, api, blockchain, economics, escrow
 
-Native MCP for coding agents: 43 read-only repository-intelligence tools with typed evidence, impact, architecture, APIs, Git, search, semantics, and memory.
+The AI-operated escrow court and reputation protocol for the agentic economy.
 
 ```bash
-cue skills add Weavatrix/weavatrix --profile backend
+cue skills add Ali-Adel-Nour/Arbitra --profile backend
+```
+
+---
+
+<a id="impactmojo-impactmojo"></a>
+## ✨ [ImpactMojo/ImpactMojo](https://github.com/ImpactMojo/ImpactMojo)
+
+**★ 2** · strong (score 7) · HTML · tags: data-literacy, development-economics, edtech, education, games
+
+Free, open-source development education for South Asia — flagship & foundational courses, hands-on interactive labs, a browser-based game library, cited deep dives, and premium research tools. All free at the core. impactmojo.in
+
+```bash
+cue skills add ImpactMojo/ImpactMojo --profile backend
+```
+
+---
+
+<a id="peterrichards-lr-liferay-accelerator-sdk"></a>
+## ✨ [peterrichards-lr/liferay-accelerator-sdk](https://github.com/peterrichards-lr/liferay-accelerator-sdk)
+
+**★ 0** · strong (score 6) · JavaScript · tags: agentic-ai, integration, liferay, liferay-dxp, mcp-server
+
+Hardened Liferay DXP Integration SDK for Batch, Workflow, and API orchestration.
+
+```bash
+cue skills add peterrichards-lr/liferay-accelerator-sdk --profile backend
+```
+
+---
+
+<a id="3esign-ratchetx"></a>
+## ✨ [3esign/ratchetx](https://github.com/3esign/ratchetx)
+
+**★ 1** · strong (score 5.3) · JavaScript · tags: ai-agents, anchor, game, mcp, mcp-server
+
+A keyless prediction market arcade on Solana — sealed commit-reveal shots settled on Pyth oracle prices, 70% of every stake burned, 0% to the team, no custody. Public proof page, hash-chained log, agent API + MCP server: machines welcome.
+
+```bash
+cue skills add 3esign/ratchetx --profile backend
 ```
 
 ---
@@ -130,19 +221,6 @@ Local-first multi-agent voice assistant — dual-process architecture (local Oll
 
 ```bash
 cue skills add anirudhlath/alfred --profile backend
-```
-
----
-
-<a id="foretak-registry-mcp"></a>
-## ✨ [foretak/registry-mcp](https://github.com/foretak/registry-mcp)
-
-**★ 0** · strong (score 5) · Python · tags: ai-agents, bolagsverket, brreg, business-registry, companies-house
-
-Company data for AI agents, any country. MCP server and REST API over national business registries: Norway (brreg / Enhetsregisteret), the United Kingdom (Companies House) and Sweden (Bolagsverket) — orgnr, company number or organisationsnummer lookup, VAT/deadline checks.
-
-```bash
-cue skills add foretak/registry-mcp --profile backend
 ```
 
 ---

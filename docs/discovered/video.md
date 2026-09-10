@@ -1,44 +1,29 @@
 ---
 title: "Claude Code Skills for video"
-description: "2 community Claude Code skills curated by cue for the video profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "1 community Claude Code skills curated by cue for the video profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-10
 tags: [claude-code, video, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `video`
 
-> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **video** profile.
+> 1 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **video** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
 
 ---
 
-<a id="nkapila6-roto"></a>
-## 💎 [nkapila6/roto](https://github.com/nkapila6/roto)
+<a id="modelscope-funasr"></a>
+## 💎 [modelscope/FunASR](https://github.com/modelscope/FunASR)
 
-**★ 0** · exceptional (score 13) · JavaScript · tags: claude-code, claude-skill, ffmpeg, hyperframes, motion-graphics
+**★ 20258** · exceptional (score 16) · Python · tags: asr, audio, chinese, emotion-recognition, funasr
 
-You have a video. You want the same video with your words in it. roto erases the original text frame by frame, keeps every bit of the motion, and writes yours back in.
-
-✅ SKILL.md
+Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.
 
 ```bash
-cue skills add nkapila6/roto --profile video
-```
-
----
-
-<a id="nooticr-nooticr-mcp"></a>
-## ✨ [Nooticr/nooticr-mcp](https://github.com/Nooticr/nooticr-mcp)
-
-**★ 0** · strong (score 5) · TypeScript · tags: ai, instagram, mcp, mcp-server, model-context-protocol
-
-Social intelligence MCP server for Claude — read posts, transcripts, comments, creators, sounds and hashtags across 8 networks, then write hooks, create variants, score drafts and repurpose. 24 tools, OAuth 2.1, prepaid credits.
-
-```bash
-cue skills add Nooticr/nooticr-mcp --profile video
+cue skills add modelscope/FunASR --profile video
 ```
 
 ---

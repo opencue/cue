@@ -1,71 +1,17 @@
 ---
 title: "Claude Code Skills for fleet-control"
-description: "6 community Claude Code skills curated by cue for the fleet-control profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "3 community Claude Code skills curated by cue for the fleet-control profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, fleet-control, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `fleet-control`
 
-> 6 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **fleet-control** profile.
+> 3 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **fleet-control** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
-
----
-
-<a id="vikashjeyaraman-opencouncil-contract-inspector"></a>
-## 💎 [vikashjeyaraman/opencouncil-contract-inspector](https://github.com/vikashjeyaraman/opencouncil-contract-inspector)
-
-**★ 121** · exceptional (score 13.4) · HTML · tags: agent-orchestration, ai-agents, ai-hallucination, ai-quality, anthropic
-
-Proven 2026 Multi-Agent AI Review System – Verdict-Driven Quality Control
-
-```bash
-cue skills add vikashjeyaraman/opencouncil-contract-inspector --profile fleet-control
-```
-
----
-
-<a id="ginkida-agent-dispatch"></a>
-## 💎 [ginkida/agent-dispatch](https://github.com/ginkida/agent-dispatch)
-
-**★ 29** · exceptional (score 12.1) · Python · tags: agent-orchestration, agentic-ai, agents, ai-agents, anthropic
-
-MCP server + CLI that lets Claude Code agents delegate tasks to agents in other project directories. Multi-agent orchestration: parallel dispatch, sessions, async jobs, agent dialogues.
-
-```bash
-cue skills add ginkida/agent-dispatch --profile fleet-control
-```
-
----
-
-<a id="jaywavfeng-tiered-agent-orchestrator"></a>
-## 💎 [jaywavfeng/tiered-agent-orchestrator](https://github.com/jaywavfeng/tiered-agent-orchestrator)
-
-**★ 1** · exceptional (score 11.3) · Python · tags: agent-orchestration, agent-skills, claude-code-skill, claude-skills, codex-skills
-
-Use strong models for decisions, economy models for execution, and repository-backed state for long-running engineering.
-
-✅ SKILL.md
-
-```bash
-cue skills add jaywavfeng/tiered-agent-orchestrator --profile fleet-control
-```
-
----
-
-<a id="aadiieee-multi-agent-revenue-orchestrator"></a>
-## 💎 [aadiieee/multi-agent-revenue-orchestrator](https://github.com/aadiieee/multi-agent-revenue-orchestrator)
-
-**★ 1** · exceptional (score 9.3) · HTML · tags: agents, ai-agents, ai-sdr, apollo-io, business-development
-
-2026 Multi-Agent BD Orchestrator – Apollo, Notion, Gmail & Slack Integration
-
-```bash
-cue skills add aadiieee/multi-agent-revenue-orchestrator --profile fleet-control
-```
 
 ---
 
@@ -83,14 +29,27 @@ cue skills add nuttaruj/rolepod --profile fleet-control
 ---
 
 <a id="eduardo-salvador-agent-harness-kit"></a>
-## 💎 [Eduardo-Salvador/Agent-Harness-Kit](https://github.com/Eduardo-Salvador/Agent-Harness-Kit)
+## ✨ [Eduardo-Salvador/Agent-Harness-Kit](https://github.com/Eduardo-Salvador/Agent-Harness-Kit)
 
-**★ 6** · exceptional (score 8) · Python · tags: agent-harness, agent-orchestration, agentic-workflows, ai-agents, claude-code
+**★ 6** · strong (score 7.9) · Python · tags: agent-harness, agent-orchestration, agentic-workflows, ai-agents, claude-code
 
 An installable harness for Codex and Claude Code that gives coding agents durable context, scoped task graphs, bounded execution, and a clear path from idea to verified delivery.
 
 ```bash
 cue skills add Eduardo-Salvador/Agent-Harness-Kit --profile fleet-control
+```
+
+---
+
+<a id="mrrlin-dev-external-agents"></a>
+## ✨ [mrrlin-dev/external-agents](https://github.com/mrrlin-dev/external-agents)
+
+**★ 0** · strong (score 6) · JavaScript · tags: agent-orchestration, codex, deepseek, gemini, groq
+
+One MCP server routes LLM calls across 20+ providers, using round-robin dispatch and fallback to reduce rate-limit interruptions and cut costs up to 100x.
+
+```bash
+cue skills add mrrlin-dev/external-agents --profile fleet-control
 ```
 
 ---

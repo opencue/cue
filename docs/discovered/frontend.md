@@ -1,31 +1,31 @@
 ---
 title: "Claude Code Skills for frontend"
-description: "3 community Claude Code skills curated by cue for the frontend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "2 community Claude Code skills curated by cue for the frontend profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, frontend, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `frontend`
 
-> 3 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **frontend** profile.
+> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **frontend** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
 
 ---
 
-<a id="elias-khalil-eng-khalil-zero-cost-stack"></a>
-## 💎 [elias-khalil-eng/khalil-zero-cost-stack](https://github.com/elias-khalil-eng/khalil-zero-cost-stack)
+<a id="amohavarshansankar-google-fonts-skill"></a>
+## 💎 [amohavarshansankar/google-fonts-skill](https://github.com/amohavarshansankar/google-fonts-skill)
 
-**★ 0** · exceptional (score 13) · TypeScript · tags: agent-skills, ai-agents, claude-code, claude-skill, google-sheets
+**★ 1** · exceptional (score 12.8) · HTML · tags: claude-code-skill, css, css-grid, css-grid-layout, design-system
 
-Claude Code skill for building internal ops apps at $0/month: React SPA + one serverless function + a spreadsheet as the database
+Generate Google Fonts typography systems with font search, pair suggestions, and CSS/Tailwind output from 1,923 curated fonts
 
 ✅ SKILL.md
 
 ```bash
-cue skills add elias-khalil-eng/khalil-zero-cost-stack --profile frontend
+cue skills add amohavarshansankar/google-fonts-skill --profile frontend
 ```
 
 ---
@@ -39,19 +39,6 @@ Curated index of frontend/UI skills for Claude Code & AI agents — a UI armory 
 
 ```bash
 cue skills add ezra-y/awesome-claude-ui-armory --profile frontend
-```
-
----
-
-<a id="aditya-ariosity-ux-ui-skills"></a>
-## ✨ [aditya-ariosity/ux-ui-skills](https://github.com/aditya-ariosity/ux-ui-skills)
-
-**★ 2** · strong (score 6.5) · Python · tags: accessibility, accessibility-checker, accessibility-testing, accessibility-tools, agent-skills
-
-A free UX/UI skill pack for Claude, Codex and ChatGPT covering audits, dashboard redesigns, design systems, AI product design, portfolio case studies, and developer handoff.
-
-```bash
-cue skills add aditya-ariosity/ux-ui-skills --profile frontend
 ```
 
 ---

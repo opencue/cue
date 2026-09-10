@@ -1,31 +1,44 @@
 ---
 title: "Claude Code Skills for creative-media"
-description: "2 community Claude Code skills curated by cue for the creative-media profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
+description: "3 community Claude Code skills curated by cue for the creative-media profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, creative-media, skills, mcp, ai-agents]
 ---
 
 # Claude Code Skills for `creative-media`
 
-> 2 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **creative-media** profile.
+> 3 community-built skills curated by [cue](https://github.com/opencue/cuecards) for the **creative-media** profile.
 > Each one was discovered via GitHub Code Search, scored on signal quality, and mapped to this profile by keyword overlap.
 
 **[← back to all discovered skills](./index.md)**
 
 ---
 
-<a id="alexeygoblov-visual-attention-audit"></a>
-## 💎 [AlexeyGOblov/visual-attention-audit](https://github.com/AlexeyGOblov/visual-attention-audit)
+<a id="devesh-shirsath-spotkit"></a>
+## 💎 [Devesh-Shirsath/spotkit](https://github.com/Devesh-Shirsath/spotkit)
 
-**★ 0** · exceptional (score 11) · Python · tags: claude-skill, computer-vision, design-tools, feature-congestion, saliency
+**★ 53** · exceptional (score 19) · HTML · tags: ai-tools, anthropic, claude-code, claude-skill, design-automation
 
-Measure visual clutter and where the eye lands. Rosenholtz Feature Congestion and Subband Entropy on numpy/scipy/Pillow, plus ranking a design against its neighbours in a grid.
+Spotkit — a Claude Code skill that turns a feature description into minimal, abstract SVG product illustrations that all belong to one design system.
 
 ✅ SKILL.md
 
 ```bash
-cue skills add AlexeyGOblov/visual-attention-audit --profile creative-media
+cue skills add Devesh-Shirsath/spotkit --profile creative-media
+```
+
+---
+
+<a id="tt-a1i-archify"></a>
+## 💎 [tt-a1i/archify](https://github.com/tt-a1i/archify)
+
+**★ 56605** · exceptional (score 16) · JavaScript · tags: agent-skills, architecture-as-code, architecture-diagram, claude-skill, code-visualization
+
+Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
+
+```bash
+cue skills add tt-a1i/archify --profile creative-media
 ```
 
 ---

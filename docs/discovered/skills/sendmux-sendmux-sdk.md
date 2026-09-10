@@ -2,7 +2,7 @@
 title: "Sendmux/sendmux-sdk — Claude Code skill discovered by cue"
 description: "Official monorepo of SDKs, CLI, and MCP servers for Sendmux email APIs across TypeScript, Python, Go, PHP, Rust, and Ruby."
 layout: page
-updated: 2026-09-08
+updated: 2026-09-10
 tags: [claude-code, skill, backend]
 ---
 
@@ -16,7 +16,7 @@ tags: [claude-code, skill, backend]
 
 cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 13.1 based on:
 - ⭐ 73 stars
-- 🗓️ Last pushed: 2026-09-08
+- 🗓️ Last pushed: 2026-09-10
 - 🏷️ Tags: cli, cli-tool, email, email-automation, email-marketing, inbox, inbox-automation, mcp, mcp-server, mcp-tools, sdk, sdk-go, sdk-php, sdk-python, sdk-typescript
 
 ## Best fit cue profiles

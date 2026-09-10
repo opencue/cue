@@ -2,7 +2,7 @@
 title: "Claude Code Skills for research"
 description: "4 community Claude Code skills curated by cue for the research profile. Hidden-gem repos with SKILL.md, MCP servers, and CLI integrations."
 layout: page
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [claude-code, research, skills, mcp, ai-agents]
 ---
 
@@ -15,28 +15,32 @@ tags: [claude-code, research, skills, mcp, ai-agents]
 
 ---
 
-<a id="ljx-chase-research-field-onboarding"></a>
-## 💎 [ljx-chase/research-field-onboarding](https://github.com/ljx-chase/research-field-onboarding)
+<a id="pleaseprompto-google-ai-mode-skill"></a>
+## 💎 [PleasePrompto/google-ai-mode-skill](https://github.com/PleasePrompto/google-ai-mode-skill)
 
-**★ 12** · exceptional (score 9.8) · Python · tags: academic-research, agent-skill, agent-skills, chatgpt-skills, claude-code-skill
+**★ 295** · exceptional (score 21.8) · Python · tags: ai-search, browser-automation, citations, claude-code, claude-skill
 
-A reusable research-onboarding skill for **Claude, ChatGPT, Codex, and other instruction-following agents**.
+Claude Code skill for free Google AI Mode search with citations. Zero-config setup, persistent browser profile, query optimization. Token-efficient web research.
+
+✅ SKILL.md
 
 ```bash
-cue skills add ljx-chase/research-field-onboarding --profile research
+cue skills add PleasePrompto/google-ai-mode-skill --profile research
 ```
 
 ---
 
-<a id="aemro-motors-popper-scope"></a>
-## 💎 [aemro-motors/popper-scope](https://github.com/aemro-motors/popper-scope)
+<a id="jakubs2623-notebooklm-skill"></a>
+## 💎 [jakubs2623/notebooklm-skill](https://github.com/jakubs2623/notebooklm-skill)
 
-**★ 0** · exceptional (score 9) · HTML · tags: claude-code, claude-code-plugin, claude-code-plugins, claude-code-plugins-marketplace, claude-code-skill
+**★ 7** · exceptional (score 17.3) · Python · tags: agentic-skill, ai-agents, ai-research, antigravity, api
 
-Popper Probe Repo: Automated Vulnerability Scanner 2026 - Smart GitHub Code Analysis
+Connect NotebookLM research with Claude to generate structured content from URLs, PDFs, and trending topics for multi-platform publishing.
+
+✅ SKILL.md
 
 ```bash
-cue skills add aemro-motors/popper-scope --profile research
+cue skills add jakubs2623/notebooklm-skill --profile research
 ```
 
 ---
@@ -44,9 +48,9 @@ cue skills add aemro-motors/popper-scope --profile research
 <a id="neverbiasu-awesome-research-skills"></a>
 ## ✨ [neverbiasu/awesome-research-skills](https://github.com/neverbiasu/awesome-research-skills)
 
-**★ 1** · strong (score 5.2) · tags: academic-research, agent-skills, ai-agents, ai-for-research, awesome
+**★ 1** · strong (score 5.3) · tags: academic-research, agent-skills, ai-agents, ai-for-research, awesome
 
-137 Agent Skills (SKILL.md) for academic and scientific research, curated one directory at a time — literature, study design, experiments, statistics, figures, writing, peer review. Each entry links to one exact path, with its own license, freshness, and capability flags.
+146 Agent Skills (SKILL.md) for academic and scientific research, curated one directory at a time — literature, study design, experiments, statistics, figures, writing, peer review. Each entry links to one exact path, with its own license, freshness, and capability flags.
 
 ```bash
 cue skills add neverbiasu/awesome-research-skills --profile research
@@ -57,7 +61,7 @@ cue skills add neverbiasu/awesome-research-skills --profile research
 <a id="rakib-nyc-skillassay"></a>
 ## 🔹 [rakib-nyc/skillassay](https://github.com/rakib-nyc/skillassay)
 
-**★ 2** · potential (score 4.6) · TypeScript · tags: agent-skills, agents-md, ai-agents, claude, claude-code
+**★ 2** · potential (score 4.5) · TypeScript · tags: agent-skills, agents-md, ai-agents, claude, claude-code
 
 Static analyzer for AI coding-agent context — and an Agent Skill your agent can run. Measures always-on context cost of CLAUDE.md, AGENTS.md and Agent Skills; finds skills that won't load, redundant instructions, stale paths and duplicate names. Claude Code, Codex, Cursor, Gemini CLI. Research project.
 

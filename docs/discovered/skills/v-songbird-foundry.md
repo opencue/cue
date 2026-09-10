@@ -2,22 +2,22 @@
 title: "V-Songbird/foundry — Claude Code skill discovered by cue"
 description: "⚒️ Three Claude Code plugins: foreman keeps the plan, hush cuts the chatter, razor stops the over-building. One marketplace, install any of them."
 layout: page
-updated: 2026-09-05
+updated: 2026-09-10
 tags: [claude-code, skill, core]
 ---
 
 # 💎 [V-Songbird/foundry](https://github.com/V-Songbird/foundry)
 
-**★ 4** · exceptional (score 10.3) · JavaScript · ai, ai-agents, claude, claude-code, claude-code-plugin
+**★ 4** · exceptional (score 12.3) · JavaScript · ai, ai-agents, claude, claude-code, claude-code-plugin
 
 > ⚒️ Three Claude Code plugins: foreman keeps the plan, hush cuts the chatter, razor stops the over-building. One marketplace, install any of them.
 
 ## Why cue indexed it
 
-cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 10.3 based on:
+cue ran [GitHub Code Search](https://docs.github.com/en/search-github/searching-on-github/searching-code) for `filename:SKILL.md` and found this repo. It scored 12.3 based on:
 - ⭐ 4 stars
-- 🗓️ Last pushed: 2026-09-05
-- 🏷️ Tags: ai, ai-agents, claude, claude-code, claude-code-plugin, claude-code-plugins-marketplace, claude-code-skill, claude-skills, developer-tools, development, engineering, hooks, marketplace, output-style, plugins, prd, roadmap, spec, yagni
+- 🗓️ Last pushed: 2026-09-10
+- 🏷️ Tags: ai, ai-agents, claude, claude-code, claude-code-plugin, claude-code-plugins-marketplace, claude-code-skill, codex, codex-plugin, developer-tools, development, engineering, marketplace, plugins
 
 ## Best fit cue profiles
 
