@@ -1251,9 +1251,25 @@ async function materializeRuntimeUnlocked(
     const oldUuid = await accountUuidAt(join(runtimeDir, ".claude.json"));
     if (srcUuid && oldUuid && srcUuid !== oldUuid) sameAccount = false;
   }
+  // `projects` holds the user's session transcripts. Normally it is a symlink
+  // into the source config — the overlay recreates that link in tmpDir, and the
+  // lstat guard below skips symlinks, so the fresh link still wins. But when the
+  // source config has no projects/ of its own, Claude Code creates a REAL
+  // directory here, and the swap's `rm -rf` of the old runtime then destroys
+  // every transcript in it (observed 2026-09-10: a core@claude5 rebuild took 12
+  // sessions / ~130 MB of history with it). Transcripts are neither
+  // identity-bound nor regenerable, so a real directory is carried across even
+  // when the account changed — there is no identity to mispair.
   const preserveFiles = sameAccount
-    ? [".claude.json", ".credentials.json", "backups", "session-env", "tasks"]
-    : [];
+    ? [
+        ".claude.json",
+        ".credentials.json",
+        "backups",
+        "session-env",
+        "tasks",
+        "projects",
+      ]
+    : ["projects"];
   for (const name of preserveFiles) {
     const oldPath = join(runtimeDir, name);
     const newPath = join(tmpDir, name);
